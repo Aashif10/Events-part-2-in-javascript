@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="OpenWindow()">Click Me</button>
+    <button onclick="closeWindow()">Close Here</button>
+    <script>
+        function OpenWindow(){
+            // myWindow = window.open("https://github.com/Aashif10/Window-events-in-javascript","width=500,height=500");
+
+            myWindow = window.open("https://github.com/Aashif10/Window-events-in-javascript", "_blank", "width=500, height=500" );
+        };
+        function closeWindow(){
+            myWindow.close();
+           
+        }
+    </script>
+</body>
+</html>
